@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1652900439414-c0e834dcfa2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#container {
+  background: rgba(0, 0, 0, 0.918);
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 3rem;
+  max-width: 40rem;
+  margin-inline: auto;
+  opacity: 0.7;
+  transition: 1s;
+  line-height: 1.5rem;
+}
+
+#container:hover {
+  opacity: 1;
+}
+
+img {
+  max-width: 95%;
+  max-height: 100%;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+p {
+  margin-bottom: 4rem;
+  opacity: 0.9;
+  font-size: 1.5rem;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: rgb(226, 43, 134);
+  color: white;
+  transition: filter 0.2s;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+/* pseudo-class :hover */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
